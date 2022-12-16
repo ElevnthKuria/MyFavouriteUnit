@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 120%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);	background-size: 400% 400%;	animation: gradient 15s ease infinite;	height: 100vh;
+
+}
+select{
+    /*webkit-appearance:none;*/
+    background-color:transparent;
+    border:0.1rem solid #d1d1d1;
+    border-radius:.4rem;
+    box-shadow:none;
+    height:3.8rem;
+    padding:.6rem 1.0rem .7rem;
+    width:100%}
+    
+.header {
+    width: 60%;
+    margin: 50px auto 0px;
+    color: black;
+    background: gold;
+    display:block;
+    text-align: center;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+
+}
+/*h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}*/ 
+
+form {
+    width: 60%;
+    margin: 0px auto ;
+    padding: 20px;    
+    border: 1px solid #ffffff;
+    background: whitesmoke;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+va {
+    width: 60%;
+    margin: 0px auto ;
+    padding: 20px;    
+    border: 1px solid #ffffff;
+    background: whitesmoke;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.input-group  {
+    margin: 10px 0px 10px 0px;
+
+}
+
+.input-group {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 50px;
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+
+.btn {
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    background: gold;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    color: Green;
+    background-color: var(--button-background-color);
+    border-radius: var(--border-radius);
+  }
+
+.btn-danger {
+    color: Red;
+    background-color: var(--button-background-color);
+    border-radius: var(--border-radius);
+
+}
